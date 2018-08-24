@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Meghana Bowen Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108444829-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108444829-1');
+    </script>
+    <script src="https://use.typekit.net/cuc2qic.js"></script>
+    <script>
+      try {
+        Typekit.load({async: true});
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <header class="about-header">
+      <nav class="navigation white-text">
+        <div>
+          <a href="index.html"><img src="Assets/logo-white.png" alt="Logo"></a>
+        </div>
+        <ul class="navigation-list">
+          <li class="nav-links">
+            <a href="index.html">Work</a>
+          </li>
+          <li class="nav-links">
+            <a href="about.html">About</a>
+          </li>
+          <li class="nav-links">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="contact-me fade-in js-fade is-paused">
+        <h1>Contact Me</h1>
+        <div class="contact-text-container">
+          <p>I'm looking for full-time opportunities</p>
+          <p class="contact-text">Something get your attention? Let's talk!</p>
+          <a href="mailto:meghanabowen@gmail.com">
+            <h2>meghanabowen@gmail.com</h2>
+          </a>
+        </div>
+        <div class="contact-icon-container">
+          <a href="https://twitter.com/v_megan"><img src="Assets/footer/Twitter_Logo_Blue.png" class="footer-icons twitter-icon contact-icon contact-twitter" alt="twitter logo"></a>
+          <a href="https://www.instagram.com/meghanabowen"><img src="Assets/footer/IG_Glyph_Fill.png" class="footer-icons contact-icon" alt="instagram logo"></a>
+          <a href="https://medium.com/@meghanabowen"><img src="Assets/footer/monogram.png" class="footer-icons contact-icon" alt="medium logo"></a>
+          <a href="https://www.linkedin.com/in/meghanabowen"><img src="Assets/footer/linkedin-logo.png" class="footer-icons linkedin-logo contact-icon" alt="linkedin logo"></a>
+        </div>
+      </section>
+    </header>
+  </body>
+  <script>
+    var el = document.querySelector('.js-fade');
+    if (el.classList.contains('is-paused')) {
+      el.classList.remove('is-paused');
+    }
+  </script>
+</html>
