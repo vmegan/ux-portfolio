@@ -42,20 +42,21 @@ figcaption {
 /***************************************Navigation**********************************************/
 
 .navigation {
-  width: 1170px;
-  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 160px;
+  padding-left: 160px;
 }
 .navigation img {
   width: 211px;
-  margin: 20px 0 0 20px;
 }
 .navigation p {
   margin: 20px;
   margin-top: 2px;
 }
 .navigation-list {
-  margin-left: 40em;
+  margin: 0;
 }
 .nav-links {
   font-size: 15px;
