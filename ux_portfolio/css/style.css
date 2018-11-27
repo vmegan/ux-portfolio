@@ -5,7 +5,7 @@ body {
 
 header {
   height: 500px;
-  background-color: #191919
+  background-color: #191919;
 }
 
 a {
@@ -28,7 +28,7 @@ a {
 }
 
 .main-section-design-process h2 {
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 figure {
   display: flex;
@@ -37,51 +37,52 @@ figure {
 }
 figcaption {
   text-align: center;
-  margin-top: -30px
+  margin-top: -30px;
 }
 /***************************************Navigation**********************************************/
 
 .navigation {
-  width: 1170px;
-  margin: 0 auto;
-  display: flex
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 160px;
+  padding-left: 160px;
 }
 .navigation img {
   width: 211px;
-  margin: 20px 0 0 20px;
 }
 .navigation p {
   margin: 20px;
-  margin-top: 2px
+  margin-top: 2px;
 }
 .navigation-list {
-  margin-left: 40em
+  margin: 0;
 }
 .nav-links {
   font-size: 15px;
   list-style: none;
   font-family: "Avenir Next Condensed";
   display: inline;
-  margin-left: 1.75em
+  margin-left: 1.75em;
 }
 .nav-links a {
-  color: #fff
+  color: #fff;
 }
 
 /***************************************Homepage Top Section**********************************************/
 .hero-image-content {
   padding-left: 160px;
-  padding-right: 160px
+  padding-right: 160px;
 }
 .hero-image-content-mobile {
   padding-left: 160px;
-  padding-right: 160px
+  padding-right: 160px;
 }
-.spotify-homepage{
-  padding-right: 100px
+.spotify-homepage {
+  padding-right: 100px;
 }
 .homepage-header {
-  height: 700px
+  height: 700px;
 }
 .about-header {
   height: 250px;
@@ -90,7 +91,7 @@ figcaption {
 .strapline {
   color: gray;
   font-size: 12px;
-  margin-bottom: -20px
+  margin-bottom: -20px;
 }
 .top-section {
   display: flex;
@@ -103,24 +104,27 @@ figcaption {
   font-family: "Avenir Next Condensed", "sans-serif";
   font-weight: 400;
   line-height: 40px;
-  color: lightsteelblue
+  color: lightsteelblue;
 }
-.top-section p, .white-background p, .black-background p {
+.top-section p,
+.white-background p,
+.black-background p {
   width: 420px;
   line-height: 24px;
   color: #fff;
   font-family: "Avenir Next";
   font-size: 16px;
-  font-weight: 100
+  font-weight: 100;
 }
 .top-section p {
-  width: 400px
+  width: 400px;
 }
 .white-background p {
   color: #000;
   font-weight: 300;
 }
-.white-background h2, .black-background h2 {
+.white-background h2,
+.black-background h2 {
   font-size: 35px;
   width: 420px;
   font-family: "Avenir Next Condensed", "sans-serif";
@@ -155,27 +159,27 @@ figcaption {
   color: #fff;
 }
 .mockup {
-  width: 820px
+  width: 820px;
 }
 .bhuku-hero-image-homepage {
-  margin-left: 100px
+  margin-left: 100px;
 }
 
 .work-button {
-  border: 4px solid #95B1CE!important;
+  border: 4px solid #95b1ce !important;
   height: 50px;
   width: 270px;
   font-family: "Avenir next", "sans-serif";
   font-size: 20px;
   border-radius: 2px;
   margin-top: 40px;
-  border: 1px solid #95B1CE;
+  border: 1px solid #95b1ce;
   font-weight: 400;
   background-color: #191919;
-  color: #fff
+  color: #fff;
 }
 .work-button:hover {
-  background-color: #95B1CE
+  background-color: #95b1ce;
 }
 .case-study-buttons {
   width: 270px;
@@ -183,31 +187,31 @@ figcaption {
   font-family: "Avenir next", "sans-serif";
   font-size: 20px;
   border-radius: 2px;
-  border: 4px solid #95B1CE;
+  border: 4px solid #95b1ce;
   margin-top: 40px;
   background-color: #fff;
 }
 .case-study-buttons:hover {
-  background-color: #95B1CE
+  background-color: #95b1ce;
 }
 .spotify-text-container {
-  margin-top: 35px
+  margin-top: 35px;
 }
 .ia-a-hero-image {
-  width: 600px!important;
-  margin-top: 28px!important;
+  width: 600px !important;
+  margin-top: 28px !important;
 }
 .ia-a-text-container {
-  margin-top: 28px!important;
+  margin-top: 28px !important;
 }
 .zeit-hero-image-homepage {
-   width: 700px!important;
+  width: 700px !important;
 }
 .zeit-text-container {
-  margin-top: 30px
+  margin-top: 30px;
 }
 .zeit-affinity-map {
-  width: 800px!important
+  width: 800px !important;
 }
 
 /***************************************Case Study Top Section**********************************************/
@@ -226,7 +230,7 @@ figcaption {
   width: 2em;
   margin: 0 auto;
   display: flex;
-  padding-top: 30px
+  padding-top: 30px;
 }
 .spotify-logo {
   width: 10em;
@@ -235,22 +239,22 @@ figcaption {
   width: 300px;
 }
 .zeit-logo {
-  width:80px
+  width: 80px;
 }
-.case-study-desc{
+.case-study-desc {
   font-size: 33px;
   text-align: center;
   font-weight: 200;
-  font-family: "avenir next condensed", "sans-serif"
+  font-family: "avenir next condensed", "sans-serif";
 }
 .case-study-hero-image {
   margin: 0 1.56em;
-  width: 13em
+  width: 13em;
 }
 
 .spotify-hero-image {
   width: 20em;
-  margin-top: -60px
+  margin-top: -60px;
 }
 .ia-a-hero-image {
   width: 703px;
@@ -258,19 +262,19 @@ figcaption {
 }
 .zeit-hero-image {
   width: 930px;
-  margin-top: -50px
+  margin-top: -50px;
 }
-.ia-a-image-container{
+.ia-a-image-container {
   display: flex;
   width: 1170px;
   margin: 0 auto;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
-.ia-a-images{
+.ia-a-images {
   width: 415px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
-  margin: 40px 30px
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: 40px 30px;
 }
 
 .hero-container {
@@ -287,7 +291,7 @@ figcaption {
   margin-top: 51px;
   font-size: 27px;
   font-weight: 300;
-  font-family: "Avenir Next Condensed"
+  font-family: "Avenir Next Condensed";
 }
 
 .goal-desc {
@@ -301,28 +305,28 @@ figcaption {
   display: flex;
   justify-content: space-around;
   width: 1170px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 .icons {
   display: flex;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
 }
 
-.icons img{
-  width: 34px
+.icons img {
+  width: 34px;
 }
 
 .icons-title {
-  border-bottom: .5px solid black;
+  border-bottom: 0.5px solid black;
   padding-bottom: 12px;
   width: 170px;
-  text-align: center
+  text-align: center;
 }
 
 .icons-list-items {
   margin: 8px 0;
-  font-family: "Avenir Next Condensed"
+  font-family: "Avenir Next Condensed";
 }
 
 .overview p {
@@ -330,7 +334,7 @@ figcaption {
 }
 /***************************************Case Study Research Section**********************************************/
 
-.main-section-design-process h2{
+.main-section-design-process h2 {
   margin-top: 12px;
 }
 
@@ -341,7 +345,7 @@ figcaption {
 .main-section-icons {
   width: 56px;
   margin: 0 auto;
-  display: flex
+  display: flex;
 }
 
 .subtitle {
@@ -349,66 +353,72 @@ figcaption {
   margin-top: 51px;
   font-size: 24px;
   font-weight: 400;
-  font-family: "Avenir Next Condensed"
+  font-family: "Avenir Next Condensed";
 }
 
 .case-study-images {
   width: 1024px;
   margin: 40px auto;
   display: flex;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .competitor-analysis {
-  width: 776px
+  width: 776px;
 }
 
-.crazy-eights, .pov_statements, .dendogram, .storyboards, .user-flow, .site-map  {
+.crazy-eights,
+.pov_statements,
+.dendogram,
+.storyboards,
+.user-flow,
+.site-map {
   width: 970px;
   margin: 0 auto;
 }
 
 .captioned-images img {
-  width: 100%
+  width: 100%;
 }
 
 figcaption {
   text-align: left;
   width: 970px;
   font-family: "Avenir Next Condensed";
-  font-size: 16px
+  font-size: 16px;
 }
 
 /*************************************** Quote **********************************************/
 
 .quote-container {
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 72px;
   text-align: center;
-  border-top: .5px solid #D1D1D1;
-  border-bottom: .5px solid #D1D1D1;
+  border-top: 0.5px solid #d1d1d1;
+  border-bottom: 0.5px solid #d1d1d1;
   width: 1080px;
   margin: 0 auto;
   margin-bottom: 80px;
-  margin-top: 80px
+  margin-top: 80px;
 }
 
 .quote-container h1 {
   height: 30px;
   margin-top: -20px;
-  color: #D1D1D1
+  color: #d1d1d1;
 }
 
 .quote {
-    margin-top: -40px;
-    font-style: italic;
-    font-family: "freight-big-pro", "serif";
-    font-size: 20px;
+  margin-top: -40px;
+  font-style: italic;
+  font-family: "freight-big-pro", "serif";
+  font-size: 20px;
 }
 
 /*************************************** About me **********************************************/
 
-.about-me, .contact-me {
+.about-me,
+.contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -421,7 +431,7 @@ figcaption {
   font-family: "Avenir Next Condensed";
   color: #fff;
   font-weight: 200;
-  font-size: 50px
+  font-size: 50px;
 }
 
 .about-me p {
@@ -433,58 +443,56 @@ figcaption {
 }
 
 .about-footer {
-  margin-top: 700px
+  margin-top: 700px;
 }
 
 .resume-button {
-  background-color: #95B1CE;
+  background-color: #95b1ce;
 }
 
 /*************************************** Contact Me **********************************************/
-
 
 .contact-me h1 {
   color: #fff;
   font-family: "Avenir Next Condensed";
   font-size: 50px;
-  font-weight: 200
+  font-weight: 200;
 }
 
 .contact-me h2 {
   font-family: "Avenir Next";
   color: #0a8db5;
   font-weight: 300;
-  font-size: 30px
+  font-size: 30px;
 }
 .contact-me p {
-    font-family: "Avenir Next";
-    color: #000;
-    font-weight: 300;
-    font-size: 30px;
+  font-family: "Avenir Next";
+  color: #000;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 .contact-text {
-  margin-top: -20px
+  margin-top: -20px;
 }
 .contact-text-container {
   margin-top: 40px;
-  text-align: center
+  text-align: center;
 }
 .contact-icon-container {
   margin: 0 auto;
-  margin-left: 200px
+  margin-left: 200px;
 }
 .contact-icon {
-  width: 60px!important;
-  margin-right: 10px
+  width: 60px !important;
+  margin-right: 10px;
 }
 .contact-twitter {
-  margin-left: 0!important
+  margin-left: 0 !important;
 }
 
-/*************************************** Footer **********************************************/*/
-
-.back-to-top {
+/*************************************** Footer **********************************************/
+*/ .back-to-top {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -493,33 +501,32 @@ figcaption {
   display: flex;
   justify-content: center;
   margin-bottom: -120px;
-  margin
 }
 .back-to-top-container p {
   margin-top: -5px;
   font-family: "avenir next condensed";
   color: gray;
-  margin-left: -15px
+  margin-left: -15px;
 }
 .back-to-top-container .back-to-top {
-  width: 30px!important
+  width: 30px !important;
 }
 .buttons {
   display: flex;
   margin: 0 auto;
   width: 1170px;
   justify-content: space-evenly;
-  padding-bottom: 80px
+  padding-bottom: 80px;
 }
 
 .next-step-btn {
   font-size: 27px;
   font-family: "freight-big-pro", "serif";
-  color: #ABABAB
+  color: #ababab;
 }
 
 .next-step-btn:hover {
-  color: #4C8ACA
+  color: #4c8aca;
 }
 
 footer {
@@ -528,14 +535,14 @@ footer {
   height: 100px;
   background-color: #fff;
   padding: 30px 100px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
-.twitter-icon{
-  margin-left: 60px!important
+.twitter-icon {
+  margin-left: 60px !important;
 }
 .linkedin-logo {
   margin-bottom: 6px;
-  margin-left: 3px
+  margin-left: 3px;
 }
 .footer-icons {
   width: 40px;
@@ -543,27 +550,27 @@ footer {
 footer h4 {
   font-family: "Avenir Next";
   font-weight: 300;
-  margin-left: 60px!important;
-  color:#000
+  margin-left: 60px !important;
+  color: #000;
 }
 footer p {
   margin: 0;
   margin-top: 80px;
   margin-right: 60px;
-  color:#000;
+  color: #000;
   font-family: "Avenir Next";
 }
 .case-study-footer {
-  background-color: #191919
+  background-color: #191919;
 }
 
-.case-study-footer p, .case-study-footer h4 {
-  color: #fff
+.case-study-footer p,
+.case-study-footer h4 {
+  color: #fff;
 }
 
-/*************************************** Footer **********************************************/*/
-
-@keyframes fadeIn {
+/*************************************** Footer **********************************************/
+*/ @keyframes fadeIn {
   to {
     opacity: 1;
   }
@@ -571,7 +578,7 @@ footer p {
 
 .fade-in {
   opacity: 0;
-  animation: fadeIn .5s ease-in 1 forwards;
+  animation: fadeIn 0.5s ease-in 1 forwards;
 }
 
 .is-paused {
